@@ -1,9 +1,13 @@
-﻿*.pdf
-*.doc
-*.docx
-*.ppt
-*.pptx
-*.tmp
-*.bak
+﻿# Ignore instruction docs (anywhere)
+**/*.doc
+**/*.docx
+**/*.ppt
+**/*.pptx
+**/*.pdf
+
+# OS/editor junk (optional)
 .DS_Store
 Thumbs.db
+.vscode/
+node_modules/
+*.log
