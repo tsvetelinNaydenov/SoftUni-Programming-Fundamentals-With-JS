@@ -5,9 +5,4 @@ function gladiatorEquipmentCalc(lostDays, helmCost, swrdCost, shldCost, armrCost
 
     console.log(`Gladiator expenses: ${equipmentCost.toFixed(2)} aureus`);
 }
-
-gladiatorEquipmentCalc(23,
-12.50,
-21.50,
-40,
-200);
+gladiatorEquipmentCalc(23,12.50,21.50,40,200);
