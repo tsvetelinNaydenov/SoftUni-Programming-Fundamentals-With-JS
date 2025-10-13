@@ -3,7 +3,7 @@ function factorialDivision (numerator, denominator){
     let num2Factorials = 1;
     
     if ((numerator === denominator) || (numerator === 0 && denominator === 0)){
-        console.log(1.00);
+        console.log('1.00');
         return;
     } 
 
