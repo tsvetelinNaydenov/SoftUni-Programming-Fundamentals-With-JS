@@ -1,5 +1,5 @@
 function solve(names){
-    let regExp = /\b[A-Z][a-z]{2,} [A-Z][a-z]{2,}\b/g;
+    let regExp = /\b[A-Z][a-z]+ \b[A-Z][a-z]+/g;
     let validNames= [];
 
     while((currentValidName = regExp.exec(names)) !== null){
